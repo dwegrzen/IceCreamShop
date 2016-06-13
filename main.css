@@ -1,0 +1,44 @@
+h1 {
+  color:#510d3a;
+  font-family:serif;
+  font-size:2em;
+  text-align: center;
+}
+
+div.title {
+  background-color:#23a977;
+  border: 15px solid #e38450;
+  border-radius: 15px;
+  margin: auto;
+  /*width: 200px;
+  height: 75px;*/
+}
+
+div.about{
+  margin: auto;
+  border: 6px solid #e38450;
+}
+table {
+  border: 3px solid black;
+  border-collapse:collapse;
+}
+th {
+  text-align: left;
+  color: #510d3a;
+  font-size: 15px;
+  font-family: monospace;
+  background-color:white;
+  padding:4px;
+}
+
+tr, td{
+  text-align: center;
+  padding: 5px;
+}
+
+tr:nth-child(even) {
+    background-color:#f4958a;
+}
+tr:nth-child(odd) {
+   background-color:#23a977;
+}
